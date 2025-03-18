@@ -114,8 +114,18 @@ To ensure directories exist, first run:
 $ mkdir -p {dir1,dir2,dir3}/{jan,feb,mar,apr}_{1,2,3,4}
 Then run:
 $ touch {dir1,dir2,dir3}/{jan,feb,mar,apr}_{1,2,3,4}/file_{1..31}.txt
-===============================================================================================================
+===============================================================================================
+Case Study-2:
+-----------------
+Q: Create 5 directories named with dir6,dir7,dir8,dir9 and dir10. In these directories create 
+empty files with a.txt,b.txt,c.txt and d.txt
 
+Ans ==> 
+$ mkdir dir{6..10}
+$ touch dir{6..10}/{a..d}.txt
+Note: *,[],{ } etc are called wild characters. We can use wild card characters in every 
+command.
+=================================================================================================
 
 
 
